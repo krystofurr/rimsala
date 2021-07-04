@@ -1,4 +1,4 @@
-name: Unity Activation File
+name: Activation File
 on:
   workflow_dispatch: {}
 jobs:
