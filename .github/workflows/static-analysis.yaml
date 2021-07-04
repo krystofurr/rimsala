@@ -1,10 +1,11 @@
 name: Static Analysis
 on:
-  push:
+  pull_request:
     branches:
       - dev
       - qat
       - main
+    types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
     name: SonarCloud
