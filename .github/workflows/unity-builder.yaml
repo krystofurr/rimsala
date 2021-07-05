@@ -40,4 +40,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Build-${{ matrix.targetPlatform }}-${{ github.ref }}
-          path: build/${{ matrix.targetPlatform }}-${{ github.ref }}
+          path: build/${{ matrix.targetPlatform }}
